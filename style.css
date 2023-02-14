@@ -4,6 +4,7 @@ html {
 }
 body {
   background-color: hsl(0, 0%, 95%);
+  font-family: 'Poppins', sans-serif;
 }
 
 h2 {
@@ -14,13 +15,39 @@ h2 {
 p {
   color: hsl(229, 6%, 66%);
 }
+/*-------- CARD ONE ---------*/
+.card-one {
+  width: 500px;
+  background-color: hsl(0, 0%, 100%);
+  margin: 50px;
+  padding: 30px;
+  border-radius: 5px;
+  border-top: 3px solid hsl(180, 62%, 55%);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card-one img {
+  border-radius: 50%;
+}
 /*-------- CARD TWO ---------*/
 .card-two {
   box-sizing: border-box;
   width: 500px;
+  margin: 50px;
+  padding: 30px;
+  width: 500px;
+  border-radius: 30px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(27,121,9,1) 41%, rgba(135,8,48,1) 71%, rgba(0,212,255,1) 100%);
+  background-image: linear-gradient(356deg, rgba(34,193,195,1) 0%, rgba(253,187,45,0.022846638655462215) 100%), url('images/elephants.jpeg');
+  background-size: cover;
+}
+.card-two h2, .card-two p {
+  color: white;
 }
 
 /*-------- CARD THREE ---------*/
 .card-three {
   width: 350px;
+  background-image: url(/images/iceland.jpeg);
+  background-size: cover;
 }
